@@ -3,7 +3,7 @@ import OMDBReducer from './OMDBReducer'
 
 const OMDBContext = createContext()
 
-const OMDB_URL = 'http://www.omdbapi.com/'
+const OMDB_URL = 'https://www.omdbapi.com/'
 const OMDB_TOKEN = 'f5c828d3'
 
 export const OMDBProvider = ({children}) => {
