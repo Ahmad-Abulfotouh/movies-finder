@@ -1,0 +1,39 @@
+.not-found {
+    width: 100%;
+    margin-top: 100px;
+
+    .svg-side {
+      width: 45%;
+      svg {
+        width: 100%;
+      }
+    }
+    .txt-side {
+      width: 100%;
+
+      h1 {
+        font-size: 72px;
+      }
+      h2 {
+        font-size: 32px;
+      }
+      p {
+        margin: 50px 0px 20px 0px;
+      }
+      button {
+        margin: 20px 0px;
+        cursor: pointer;
+        padding: 5px 10px;
+        color: var(--bg);
+        background-color: var(--red);;
+        border: 2px solid var(--red);;
+        border-radius: 2px;
+        transition: all 0.3s ease;
+
+        &:hover {
+          color: var(--red);
+          background-color: transparent;
+        }
+      }
+    }
+  }

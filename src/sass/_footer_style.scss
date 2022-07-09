@@ -1,0 +1,14 @@
+footer {
+    width: 100%;
+    padding: 40px 5px;
+    text-align: center;
+    background-color: var(--bg-card);;
+    
+    a {
+      color: var(--text-color);
+
+      &:hover {
+        color: #AAA
+      }
+    }
+  }

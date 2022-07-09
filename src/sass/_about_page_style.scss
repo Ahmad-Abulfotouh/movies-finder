@@ -1,0 +1,30 @@
+.about {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+    .info {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+
+      h2 {
+        display: flex;
+        flex-flow: column nowrap;
+        
+        span {
+          margin: 10px;
+
+          a {
+            color: var(--text-color);
+
+            &:hover {
+              color: #AAA
+            }
+          }
+        }
+      }
+    }
+  }
