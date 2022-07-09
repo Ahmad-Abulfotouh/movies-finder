@@ -35,6 +35,7 @@ export const OMDBProvider = ({children}) => {
 		setLoading()
 
 		const response = await fetch(`${OMDB_URL}?i=${id}&apikey=${OMDB_TOKEN}`)
+		console.log(response)
 
 		if(response.status === 404 ) window.location = '/notfound'
 		else {
